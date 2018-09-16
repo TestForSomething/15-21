@@ -1181,7 +1181,7 @@ Rocket.on('message', msg => {
 
 
     Rocket.login("process.env.BOT2_TOKEN");
-");
+
 
 
 
