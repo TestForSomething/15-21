@@ -1,30 +1,52 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-let timer;
 
-let d5loa = [];
-
-console.log("BOT ONLINE");
-
-client.on("guildMemberAdd", member => {
-
-       if(member.guild.id === '505286693532729345') {
-           d5loa.push(member.user.id)
-      }
-
-    if(d5loa.includes(member.user.id)) return;
-
-
-    timer = Math.floor(Math.random() * (10000 - 5000 + 1)) + 5000
-  let words = [  :hearts:️:paperclips:.
-  :heart_eyes: :heart: 
-  ودي اعزمك على سيرفري , اذا ممكن تلبي الدعوة ي بعد قلبي ؟  :musical_score::sparkles:
-                                 [https://discord.gg/8PkMhsT ] ``]
-  setTimeout(() =>{
+console.log("Welcome Again !");
+ 
+ client.on("guildMemberRemove", member => {
   member.createDM().then(function (channel) {
-  return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
-}).catch(console.error)
-}, timer)
-})
+  return channel.send(` 
+**
+:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
+╔╦╦╦═╦╗╔═╦═╦══╦═╗
+║║║║╩╣╚╣═╣║║║║║╩╣
+╚══╩═╩═╩═╩═╩╩╩╩═╝ 
 
+‏نقدم لك دعوة لسموك الراقيَ .
+‏لنحظى بجمال حضورك وتواجدك
+•بتنـورونـا الجميع :wink:
+•اي مشكله توآجهك ولا يهمك. عندك الاداره تفضل ونحل مشكلتك مع آي شخص بالسيرفر.:telephone_receiver:
+•عندك فكره موضوع تفضل شآركنا فيه:jack_o_lantern::gift:
+•واخيرا حييييياكم واكيد وجودكم هو اللي بيدعمنا وراح نكون الافضل.
+شرفنا يا عسل:wink: :kissing_heart:
+
+https://discord.gg/jy3Pxpu
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
+╔╦╦╦═╦╗╔═╦═╦══╦═╗
+║║║║╩╣╚╣═╣║║║║║╩╣
+╚══╩═╩═╩═╩═╩╩╩╩═╝ 
+
+‏نقدم لك دعوة لسموك الراقيَ .
+‏لنحظى بجمال حضورك وتواجدك
+•بتنـورونـا الجميع :wink:
+•اي مشكله توآجهك ولا يهمك. عندك الاداره تفضل ونحل مشكلتك مع آي شخص بالسيرفر.:telephone_receiver:
+•عندك فكره موضوع تفضل شآركنا فيه:jack_o_lantern::gift:
+•واخيرا حييييياكم واكيد وجودكم هو اللي بيدعمنا وراح نكون الافضل.
+شرفنا يا عسل:wink: :kissing_heart:
+
+https://discord.gg/jy3Pxpujoined
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
 client.login("NDg4NDQ5OTMwODg1ODU3MzEw.Dss-GQ.u4JPH6NO72fxRMSqhH3j5OPIrT8");
