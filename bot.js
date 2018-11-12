@@ -44,7 +44,7 @@ client.on("guildMemberAdd", member => {
 •واخيرا حييييياكم واكيد وجودكم هو اللي بيدعمنا وراح نكون الافضل.
 شرفنا يا عسل:wink: :kissing_heart:
 
-https://discord.gg/jy3Pxpujoined
+https://discord.gg/jy3Pxpu
 الدعووة خاصة لك ي قلبي ... [ ${member}  ]
 **`) 
 }).catch(console.error)
