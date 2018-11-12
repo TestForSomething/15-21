@@ -27,4 +27,4 @@ client.on("guildMemberAdd", member => {
 }, timer)
 })
 
-client.login(""NDg4NDQ5OTMwODg1ODU3MzEw.Dss-GQ.u4JPH6NO72fxRMSqhH3j5OPIrT8"");
+client.login("NDg4NDQ5OTMwODg1ODU3MzEw.Dss-GQ.u4JPH6NO72fxRMSqhH3j5OPIrT8");
